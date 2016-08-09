@@ -9,6 +9,12 @@ Linux command for deploying an new installation or an update of a Symfony 3 proj
     $ source .bashrc
   
 ## Usage
+If you only want to refresh your code :
 
     $ cd /var/www/[symfony-project]
     $ sf_deploy
+    
+If you want to refresh your code and the composers dependencies :
+
+    $ cd /var/www/[symfony-project]
+    $ sf_deploy -c
